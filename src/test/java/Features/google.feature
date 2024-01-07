@@ -1,6 +1,6 @@
 Feature: Google
 
-  @Smoke
-  Scenario: Google Git
-    Given Kullanici google gider
 
+  Scenario: Google Home Page
+
+    Given Kullanici google gider
