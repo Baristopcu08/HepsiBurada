@@ -73,5 +73,10 @@ public class GeneralSteps extends BaseClass {
 
     }
 
+    @Given("Kullanici google gider")
+    public void kullaniciGoogleGider() {
+        driver.get("https://www.google.com.tr/?hl=tr");
+
+    }
 }
 

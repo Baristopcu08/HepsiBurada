@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-        features = {"src/test/java/Features/UrunAramaveSepeteEkleme.feature"},
+        features = {"src/test/java/Features/google.feature"},
         glue = {"Steps"},
         tags = "@Smoke",
         plugin = {"progress",
@@ -13,9 +13,12 @@ import io.cucumber.testng.CucumberOptions;
                 "html:test-output/cucumber-reports/cucumberreport.html",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+
 )
 
-public class Runner extends AbstractTestNGCucumberTests {
+
+
+public class Runner2 extends AbstractTestNGCucumberTests {
 
 
 }
